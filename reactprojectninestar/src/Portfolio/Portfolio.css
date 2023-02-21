@@ -1,0 +1,87 @@
+.page4 {
+	padding-top:2rem;
+	padding-bottom:3rem;
+	
+}
+.app{
+	text-align:center;
+	padding:0px;
+}
+.app a{
+	text-decoration:none;
+	color:black;
+	margin:auto;
+	padding:1rem;
+}
+.app a:hover{
+	color:#eb5d1e;
+}
+.all img{
+	width:100%;
+	border-radius:3%;
+}
+.all{
+	position:relative;
+	width:100%;
+	margin-top:2rem;
+}
+.all::before{
+	content: "";
+	position: absolute;
+	width: 0%;
+	background-color: #8d808080;
+	top: 0px;
+	right: 0px;
+	transition: all 0.4s;
+	color:white;
+	border-radius:3%;
+}
+.all:hover::before{
+	width: 100%;
+	bottom: 0px;
+}
+.apps{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:25%;
+	gap:10px;
+	text-align:center;
+}
+.app1{
+	position:absolute;
+	text-align:center;
+	top:0;
+	bottom:0;
+	right:100%;
+	left:0;
+	opacity: 0;
+	width:100%;
+	border-radius:3%;
+}
+.app1:hover{
+	opacity:1;
+	transition:1s ease;
+}
+.app1 h3{
+	color:white;
+	margin-top:1.5rem;
+}
+.app1 p{
+	color:white;
+}
+.apps1{
+	border-radius:50%;
+	height:40px;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1.5rem;
+	background-color:white;
+	color:#F89050;
+}
+.apps1:hover{
+	background-color:#F89050;
+	color:white;
+}
