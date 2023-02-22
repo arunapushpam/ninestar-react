@@ -1,0 +1,29 @@
+.page9{
+	padding-top:2rem;
+	padding-bottom:5rem;
+	background-color:#FEF8F5;
+}
+.join{
+
+	text-align:center;
+}
+.join h3{
+	line-height: 1;
+    font-weight: 600;
+    color: #4e4039;
+	margin-top:2rem;
+}
+.join input{
+	height:40px;
+	width:40%;
+	border:none;
+}
+.join a{
+	background-color:#eb5d1e;
+	color:white;
+	text-decoration:none;
+	padding:10px 20px;
+	border-radius:5px;
+	
+
+}

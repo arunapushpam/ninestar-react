@@ -7,6 +7,9 @@ import Service from '../Service/Service';
 import Teams from '../Teams/Teams';
 import './Home.css';
 import Contact from '../Contact/Contact';
+import Join from '../Join/Join';
+import Footer from '../Footer/Footer';
+import Copyright from '../Copyright/Copyright';
 
 const Home = () => {
   return (
@@ -78,8 +81,10 @@ const Home = () => {
 	<Faq />
 	<Teams />
 	<Client />
-	{/* <Contact /> */}
-
+	 <Contact /> 
+	 <Join />
+	<Footer />
+	<Copyright />
     </>
     
   )

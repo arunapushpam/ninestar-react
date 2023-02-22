@@ -1,0 +1,25 @@
+.copy{
+	background-color:#FEF8F5;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.copyright{
+	justify-content:space-between;
+}
+.design a{
+	text-decoration:none;
+	color:#eb5d1e;
+}
+@media(min-width:375px){
+	.copyright{
+	display:block;
+	text-align:center;
+	}
+}
+@media(min-width:768px){
+	.copyright{
+	display:flex;
+	justify-content:space-between;
+	}
+}
+	

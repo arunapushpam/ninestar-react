@@ -1,0 +1,71 @@
+.page10{
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.nine p{
+	font-size:14px;
+	color:#5c5c5c;
+	
+}
+.emails {
+	margin-top:2rem;
+}
+.emails p{
+	font-size:14px;
+	color:#5c5c5c;
+}
+.use h3{
+	font-size:1.2rem;
+	font-weight:700;
+	/* margin-top:2rem; */
+}
+.use ul{
+	list-style:none;
+	padding:0px;
+}
+.use li a{
+	text-decoration:none;
+	font-size:14px;
+	line-height:2.5;
+	color:black;
+	
+}
+.use iconify-icon{
+	font-size:1rem;
+	color:#f39e7a;
+}
+.net h3{
+	font-size:1rem;
+	color:#212529;
+	font-weight:700;
+}
+.net p{
+	font-size:14px;
+	color:#212529;
+}
+
+.twitter{
+	width:100%; 
+	align-items:center;
+	display:flex;
+	/* justify-content:space-between; */
+}	
+.twit{
+	height:35px;
+	width:35px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:10px;
+	border-radius:50%;
+	background-color:#ec692e;
+	cursor:pointer;
+	 
+}
+.twit iconify-icon{
+	font-size:1rem;
+	color:white;	
+}
+.twit:hover{
+	background-color:#ef7f4d;;
+}

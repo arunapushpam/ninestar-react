@@ -36,7 +36,7 @@ const Contact = () => {
 								<p>+1 5589 55488 55s</p>
 							</div>
 							<div className="map">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63068.03260541834!2d77.38679026616693!3d8.90262966237057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b042658f6756999%3A0x65c163fa24eb85b5!2sKeezhapavur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1666712680232!5m2!1sen!2sin" w height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63068.03260541834!2d77.38679026616693!3d8.90262966237057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b042658f6756999%3A0x65c163fa24eb85b5!2sKeezhapavur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1666712680232!5m2!1sen!2sin" w height="300"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 							</div>
 						</div>
 					</div>
@@ -59,7 +59,7 @@ const Contact = () => {
 									<label for="name">Message</label>
 									<textarea name="message"  className="form-control" rows="10" cols="50"></textarea>
 								</div>
-								<div class="formbut text-center mt-3" >
+								<div className="formbut text-center mt-3" >
 									<button type="button" className="btn">Send Message</button>
 								</div>
 							</div>
