@@ -1,0 +1,23 @@
+.page7{
+	width:100%;
+	background-color:#FEF8F5;
+	padding-top:2rem;
+	padding-bottom:5rem;
+	
+}
+@media(min-width:360px){
+	.use{
+	width:100%;
+	}
+	.client{
+	width:60%;
+	margin:auto;
+	}
+}
+.use{
+	width:100%;
+}
+.client{
+	width:60%;
+	
+}

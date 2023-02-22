@@ -1,8 +1,12 @@
 import React from 'react'
 import About from '../About/About';
+import Client from '../Client/Client';
 import Portfolio from '../Portfolio/Portfolio';
+import Faq from '../Faq/Faq';
 import Service from '../Service/Service';
+import Teams from '../Teams/Teams';
 import './Home.css';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
   return (
@@ -71,6 +75,11 @@ const Home = () => {
 	<About />
 	<Service />
 	<Portfolio />
+	<Faq />
+	<Teams />
+	<Client />
+	{/* <Contact /> */}
+
     </>
     
   )

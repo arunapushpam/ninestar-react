@@ -1,0 +1,17 @@
+
+.page5{
+	
+	padding-top:2rem;
+	padding-bottom:3rem;
+	background-color:#FEF8F5;
+}
+
+.accordion-item{
+	background-color:#FEF8F5;
+}
+.accordion-button{
+	background-color:#FEF8F5 !important;
+}
+.accordion-button:hover{
+	color:#c54811;
+}

@@ -1,0 +1,75 @@
+.page8{
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.info{
+	width:100%;
+	margin-top:2rem;
+	border-top:3px solid #eb5d1e;
+	border-bottom:3px solid #eb5d1e;
+	padding:1rem;
+	padding-bottom:3rem;    
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);	
+}
+.info1{
+	height:45px;
+	width:45px;
+	background-color:#fdf1ec;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	float:left;
+}
+.info1 iconify-icon{
+	color:#eb5d1e;
+	font-size:1.5rem;
+	
+	
+}
+.info1 iconify-icon:hover{
+	color:white;
+}
+.info1:hover{
+	color:white;
+	background-color:orange;
+}
+.info h4{
+	font-size:25px;
+	font-weight:500;
+	color:#7a6960;
+	padding:0 0 0 65px;
+	margin-bottom:5px;
+}
+.info p{
+	font-size:14px;
+	padding:0 0 0 65px;
+	color:#ab9d95;
+}
+.map{
+	width:100%;
+}
+.map iframe{
+	width:100%;
+}
+.fname form-group{
+	padding-bottom:8px;	
+	
+}
+.fname input{
+	height:50px;
+}
+.fname textarea{
+	width:100%;
+	border:1px solid #ced4da;
+}
+.formbut button{
+	background-color:#eb5d1e;
+	/* padding:10px 25px; */
+	font-size:1.2rem;
+	color:white;
+}
+.formbut button:hover{
+	background-color:orange;
+	color:white;
+}
